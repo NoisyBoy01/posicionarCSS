@@ -1,7 +1,12 @@
+body{
+	
+	font-family:sans;
+}
 ul#menu, aside, main, figure, figcaption{box-sizing:border-box}
 ul#menu, aside, main{
 	vertical-align:text-top;padding:15px 5px 5px 5px}
-h1, h2, ul, li, p{margin:0px;}
+h1, h2, ul, li, p
+{margin:0px;}
 ul#menu{
 	background-color:#ffaaaa;
 	width:20%;
@@ -21,8 +26,12 @@ main{
 	display:inline-block;
 }
 footer, header{
-	background-color:#ffffaa;
 	text-align:center;
+}
+header h1{
+		padding:15px 0;
+		border-bottom:8px solid #ffffaa;
+	
 }
 figure{
 	width:200px;
@@ -77,18 +86,19 @@ nav ul li a{
 }
 nav ul li a:hover{
 	color:white;
-	background-color:black;
+	background-color:#f57900;
 	font-weight:bold;
 }
 nav ul li ul{
 	position:absolute;
 	overflow:hidden;
 	max-height:0px;
-	background-color:red;
+	box-shadow:10px 10px 15px #888888;
 	transition:max-height 1s;
 }
 nav ul li ul li a{
-		background-color:#3465a4;
+		background-color:#20f2a9;
+		
 }
 nav ul li:hover ul{
 	max-height:300px;
